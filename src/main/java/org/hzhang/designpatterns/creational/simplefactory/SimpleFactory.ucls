@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.hzhang.designpatterns.creational.simplefactory.Factory" 
+    project="graphic-design-patterns" 
+    file="/graphic-design-patterns/src/main/java/org/hzhang/designpatterns/creational/simplefactory/Factory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="237" x="595" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.hzhang.designpatterns.creational.simplefactory.ConcreteProductA" 
+    project="graphic-design-patterns" 
+    file="/graphic-design-patterns/src/main/java/org/hzhang/designpatterns/creational/simplefactory/ConcreteProductA.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="237" x="318" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="org.hzhang.designpatterns.creational.simplefactory.Product" 
+    project="graphic-design-patterns" 
+    file="/graphic-design-patterns/src/main/java/org/hzhang/designpatterns/creational/simplefactory/Product.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="237" x="180" y="178"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="org.hzhang.designpatterns.creational.simplefactory.ConcreteProductB" 
+    project="graphic-design-patterns" 
+    file="/graphic-design-patterns/src/main/java/org/hzhang/designpatterns/creational/simplefactory/ConcreteProductB.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="237" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
