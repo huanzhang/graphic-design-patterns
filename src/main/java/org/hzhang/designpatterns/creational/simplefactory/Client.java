@@ -10,7 +10,7 @@ import java.util.Locale;
 /**
  * Created by Zhang Huan on 13/03/2018.
  */
-class Application {
+class Client {
     public static void main() throws NoSuchAlgorithmException, NoSuchPaddingException {
         Product product = Factory.createProduct("A");
 

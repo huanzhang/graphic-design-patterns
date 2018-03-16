@@ -3,7 +3,7 @@ package org.hzhang.designpatterns.behavioral.command;
 /**
  * Created by Zhang Huan on 15/03/2018.
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         Receiver receiver = new Receiver();
         Command command = new ConcreteCommand(receiver);

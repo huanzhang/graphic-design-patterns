@@ -3,7 +3,7 @@ package org.hzhang.designpatterns.structural.bridge;
 /**
  * Created by Zhang Huan on 14/03/2018.
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         Implementor implementorA = new ConcreteImplementorA();
         Abstraction pa = new RefinedAbstraction(implementorA);

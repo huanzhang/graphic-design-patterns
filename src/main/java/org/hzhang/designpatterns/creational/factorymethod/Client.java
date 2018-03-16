@@ -5,7 +5,7 @@ import java.sql.*;
 /**
  * Created by Zhang Huan on 13/03/2018.
  */
-public class Application {
+public class Client {
     public static void main(String[] args) throws SQLException {
         Factory factory = new ConcreteFactory();
         Product product = factory.factoryMethod();

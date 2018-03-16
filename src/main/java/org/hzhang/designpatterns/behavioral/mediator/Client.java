@@ -3,7 +3,7 @@ package org.hzhang.designpatterns.behavioral.mediator;
 /**
  * Created by Zhang Huan on 15/03/2018.
  */
-public class Application {
+public class Client {
     public static void main(String[] args) {
         Colleague colleagueA = new ConcreteColleagueA();
         Colleague colleagueB = new ConcreteColleagueB();
